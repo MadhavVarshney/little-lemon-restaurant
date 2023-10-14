@@ -2,12 +2,15 @@ const Nav = () => {
     const list = {
         display: "flex",
         justifyContent: "space-around",
-        height: "100%"
+        height: "100%",
+        padding: "0",
+        flexWrap: "wrap"
     }
 
     const listItem = {
         listStyle: "none",
-        alignSelf: "center"
+        alignSelf: "center",
+        padding: "0 10px"
     }
 
     const listLink = {

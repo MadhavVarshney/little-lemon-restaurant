@@ -5,12 +5,15 @@ const logo = require('../assets/images/logo.png');
 const Header = () => {
     const headerStyle = {
         display: "flex",
-        justifyContent: "space-between"
+        justifyContent: "space-around",
+        flexWrap: "wrap"
     }
     return (
         <header style={headerStyle}>
-            <img src={logo} alt="logo" width={400}></img>
-            <div style={{ "width": "60%" }}>
+            <div className='logo-wrapper'>
+                <img src={logo} alt="logo" className='logo'></img>
+            </div>
+            <div className='nav-wrapper'>
                 <Nav></Nav>
             </div>
         </header >

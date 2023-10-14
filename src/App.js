@@ -1,8 +1,10 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Components/Footer';
 import Header from './Components/Header'
-import Main from './Components/Main';
+import Banner from './Components/Banner';
 import Head from './Components/Head';
+import Menu from './Components/Menu';
 import './assets/style.css';
 
 
@@ -11,8 +13,9 @@ function App() {
     <>
       <Head></Head>
       <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+      <Banner></Banner>
+      <Menu></Menu>
+      {/* <Footer></Footer> */}
     </>
   );
 }
