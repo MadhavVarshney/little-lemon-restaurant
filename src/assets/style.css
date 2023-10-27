@@ -4,14 +4,34 @@
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
     width: 100%;
+    margin-top: 50px;
 }
 
 /******************************/
 
+/*Common css*/
+.page-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* min-height: 31.25rem; */
+    padding: 1.875rem 0 1.875rem 0;
+    text-align: center;
+    color: #495E59;
+    font-family: "Markazi Text";
+    font-size: 25px;
+}
+
+.error-message {
+    color: #d2322d;
+    font-size: 14px;
+}
+
+/******************************/
 
 /*Navigation css*/
 .logo-wrapper {
@@ -20,6 +40,18 @@
 
 .nav-wrapper {
     width: 40%;
+}
+
+.listLink {
+    text-decoration: none;
+    color: #1d1d1f;
+    font-weight: 700;
+}
+
+.current-location,
+.listLink:hover,
+.listLink:focus {
+    color: #F4CE14;
 }
 
 /******************************/
@@ -119,6 +151,32 @@
 
 /******************************/
 
+/*Banner css*/
+.form-row {
+    margin-top: 30px;
+}
+
+/******************************/
+
+/*Form css*/
+.form-label-wrapper {
+    text-align: right;
+}
+
+.form-input-wrapper {
+    text-align: left;
+}
+
+.form-input-wrapper input,
+.form-input-wrapper select {
+    min-width: 15rem;
+    border: 2px solid rgb(73, 94, 89);
+    min-height: 2rem;
+    border-radius: 5px;
+}
+
+/******************************/
+
 /*Media query*/
 
 @media only screen and (max-width: 768px) {
@@ -153,6 +211,11 @@
 
     .card-wrapper {
         margin-top: 30px;
+    }
+
+    .form-label-wrapper,
+    .form-input-wrapper {
+        text-align: center;
     }
 }
 
