@@ -125,6 +125,8 @@
     background-color: #f4ce14;
     font-size: 15px;
     font-weight: 600;
+    color: #000;
+    text-decoration: none;
 }
 
 .image-hide-show {

@@ -1,9 +1,5 @@
 import { useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { generateRandTime } from "../../../utils/fakeApi";
-
-// const availableTimes = ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00'];
-// const defaultDate = new Date().toISOString().split('T')[0];
 
 const BookingForm = ({
     availableTimes,
